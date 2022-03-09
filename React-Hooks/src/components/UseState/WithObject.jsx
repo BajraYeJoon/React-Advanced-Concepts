@@ -1,6 +1,7 @@
 import React, { useState } from "react";
 
 function WithObject() {
+    //Use state with object takes different values
   const [greet, setGreet] = useState({ salute: "", firstName: "" });
 
   const setName = () => {

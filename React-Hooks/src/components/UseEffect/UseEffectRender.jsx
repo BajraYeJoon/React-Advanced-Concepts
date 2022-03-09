@@ -7,6 +7,8 @@ function UseEffectRender() {
   // useeffect is used to replace the component did update and it will be triggered
   //after every renders
   //the second parameter in the useeffect is a checker for the changed values. if change value then rerender otherwise igore
+  //MIMICS COMPONENT DID UPDATE
+  
   useEffect(() => {
     console.log("Updating");
     document.title = `You Clicked ${count} times`;

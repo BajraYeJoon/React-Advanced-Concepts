@@ -1,4 +1,6 @@
 import React from "react";
+import CleanupEffect from "./components/UseEffect/CleanupEffect";
+import CleanupToggler from "./components/UseEffect/CleanupToggler";
 import UseEffectRender from "./components/UseEffect/UseEffectRender";
 import UseState from "./components/UseState/UseState";
 import WithArray from "./components/UseState/WithArray";
@@ -10,7 +12,9 @@ function App() {
     {/* <WithObject /> */}
     
     {/* <WithArray /> */}
-    <UseEffectRender />
+    {/* <UseEffectRender /> */}
+    {/* <CleanupEffect /> */}
+    <CleanupToggler />
     </div>);
 }
 

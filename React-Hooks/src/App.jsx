@@ -1,6 +1,7 @@
 import React from "react";
 import CleanupEffect from "./components/UseEffect/CleanupEffect";
 import CleanupToggler from "./components/UseEffect/CleanupToggler";
+import DataFetch from "./components/UseEffect/DataFetch";
 import UseEffectRender from "./components/UseEffect/UseEffectRender";
 import UseState from "./components/UseState/UseState";
 import WithArray from "./components/UseState/WithArray";
@@ -14,7 +15,8 @@ function App() {
     {/* <WithArray /> */}
     {/* <UseEffectRender /> */}
     {/* <CleanupEffect /> */}
-    <CleanupToggler />
+    {/* <CleanupToggler /> */}
+    <DataFetch />
     </div>);
 }
 

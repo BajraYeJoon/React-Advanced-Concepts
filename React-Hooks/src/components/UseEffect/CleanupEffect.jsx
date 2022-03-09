@@ -12,6 +12,8 @@ function CleanupEffect() {
   };
 
   // When mouse is moved the mouse position function is called and the value is shown
+
+  //IMPORTANT:  incase of function specify inside the useffect
   useEffect(() => {
     console.log("useffect called");
     window.addEventListener("mousemove", mousePosition);

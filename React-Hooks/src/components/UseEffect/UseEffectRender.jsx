@@ -8,11 +8,11 @@ function UseEffectRender() {
   //after every renders
   //the second parameter in the useeffect is a checker for the changed values. if change value then rerender otherwise igore
   //MIMICS COMPONENT DID UPDATE
-  
+
   useEffect(() => {
     console.log("Updating");
     document.title = `You Clicked ${count} times`;
-  }, [count]);
+  }, [count]); // Prev value is stored and checked and watch for changes
   return (
     <div>
       <input

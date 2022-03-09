@@ -1,4 +1,5 @@
 import React from "react";
+import UseEffectRender from "./components/UseEffect/UseEffectRender";
 import UseState from "./components/UseState/UseState";
 import WithArray from "./components/UseState/WithArray";
 import WithObject from "./components/UseState/WithObject";
@@ -8,7 +9,8 @@ function App() {
     {/* <UseState /> */}
     {/* <WithObject /> */}
     
-    <WithArray />
+    {/* <WithArray /> */}
+    <UseEffectRender />
     </div>);
 }
 

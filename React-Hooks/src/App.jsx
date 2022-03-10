@@ -1,4 +1,6 @@
 import React, { useReducer, useContext } from "react";
+import CounterOne from "./components/CustomHooks/CounterOne";
+import CounterTwo from "./components/CustomHooks/CounterTwo";
 import TitleOne from "./components/CustomHooks/TitleOne";
 import TitleTwo from "./components/CustomHooks/TitleTwo";
 import CleanupEffect from "./components/UseEffect/CleanupEffect";
@@ -62,8 +64,11 @@ function App() {
     <div>
        {/* <Fetcher /> */}
          {/* <UseRef /> */}
-         <TitleOne />
-         <TitleTwo />
+         {/* <TitleOne />
+         <TitleTwo /> */}
+
+         <CounterOne />
+         <CounterTwo />
     </div>
   );
 }

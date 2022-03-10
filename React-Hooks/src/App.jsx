@@ -1,4 +1,6 @@
 import React, { useReducer, useContext } from "react";
+import TitleOne from "./components/CustomHooks/TitleOne";
+import TitleTwo from "./components/CustomHooks/TitleTwo";
 import CleanupEffect from "./components/UseEffect/CleanupEffect";
 import CleanupToggler from "./components/UseEffect/CleanupToggler";
 import DataFetch from "./components/UseEffect/DataFetch";
@@ -59,7 +61,9 @@ function App() {
 
     <div>
        {/* <Fetcher /> */}
-         <UseRef />
+         {/* <UseRef /> */}
+         <TitleOne />
+         <TitleTwo />
     </div>
   );
 }

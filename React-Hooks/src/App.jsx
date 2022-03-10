@@ -7,6 +7,7 @@ import Fetcher from "./components/UseReducer/DataFetch/Fetcher";
 import EnhhancedReducer from "./components/UseReducer/EnhhancedReducer";
 import LevelOne from "./components/UseReducer/ReducerNuserContext/LevelOne";
 import UseReducer from "./components/UseReducer/UseReducer";
+import UseRef from "./components/UseRef/UseRef";
 import UseState from "./components/UseState/UseState";
 import WithArray from "./components/UseState/WithArray";
 import WithObject from "./components/UseState/WithObject";
@@ -57,8 +58,8 @@ function App() {
     // </CountContext.Provider>
 
     <div>
-       <Fetcher />
-
+       {/* <Fetcher /> */}
+         <UseRef />
     </div>
   );
 }

@@ -3,6 +3,7 @@ import CounterOne from "./components/CustomHooks/CounterOne";
 import CounterTwo from "./components/CustomHooks/CounterTwo";
 import TitleOne from "./components/CustomHooks/TitleOne";
 import TitleTwo from "./components/CustomHooks/TitleTwo";
+import User from "./components/CustomHooks/User";
 import CleanupEffect from "./components/UseEffect/CleanupEffect";
 import CleanupToggler from "./components/UseEffect/CleanupToggler";
 import DataFetch from "./components/UseEffect/DataFetch";
@@ -67,8 +68,9 @@ function App() {
          {/* <TitleOne />
          <TitleTwo /> */}
 
-         <CounterOne />
-         <CounterTwo />
+         {/* <CounterOne />
+         <CounterTwo /> */}
+         <User />
     </div>
   );
 }

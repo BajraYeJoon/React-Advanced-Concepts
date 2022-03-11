@@ -1,8 +1,23 @@
-import React from "react";
+import React from 'react'
+import { Routes, Route } from 'react-router-dom'
+import { About } from './components/About'
+import {Home} from './components/Home'
+import Navigaotor from './components/Navigaotor'
 
-export default () => (
-  <>
-    <h1>Welcome to React Vite Micro App!</h1>
-    <p>Hard to get more minimal than this React app.</p>
-  </>
-);
+function App() {
+  return (
+   <>
+    <Navigaotor />
+    
+    <Routes>
+      <Route path='/' element={<Home />} />
+      <Route path='about' element={<About />} />
+    </Routes>
+   
+   
+   </>
+    
+  )
+}
+
+export default App

@@ -1,0 +1,13 @@
+nav {
+    background-color: rgb(224, 181, 181);
+    padding: 16px 30px;
+}
+
+nav a {
+    text-decoration: none;
+   margin-right: 12px;
+}
+nav a:hover {
+    cursor: pointer;
+    color: black;
+}

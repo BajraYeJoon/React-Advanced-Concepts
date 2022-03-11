@@ -10,14 +10,17 @@ export const Navigaotor = () => {
   };
 
   return (
-    <nav>
-      {/* navlink is specigicallly to the navbar   */}
+    <nav className='primary-nav'>
+      {/* navlink is specifically to the navbar   */}
       {/* CSS in jsx */}
       <NavLink style={navStyles} to="/">
         Home
       </NavLink>
       <NavLink style={navStyles} to="/about">
         About
+      </NavLink>
+      <NavLink style={navStyles} to="/product">
+        PRODUCT
       </NavLink>
     </nav>
   );
